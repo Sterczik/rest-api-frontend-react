@@ -1,0 +1,9 @@
+.form {
+  max-width: 600px;
+  margin: 20px auto;
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

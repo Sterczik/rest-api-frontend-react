@@ -1,0 +1,10 @@
+.header {
+  flex-grow: 1;
+  &__typo {
+    flex-grow: 1;
+  }
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+}

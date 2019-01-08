@@ -1,0 +1,38 @@
+.card {
+  margin: 10px 0;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__form {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > div {
+      margin-top: 0;
+    }
+  }
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    margin: 0 15px;
+    padding: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__text {
+    color: $primaryColor !important;
+    &--done {
+      color: #888888 !important;
+      font-style: italic;
+      text-decoration: line-through;
+    }
+  }
+}

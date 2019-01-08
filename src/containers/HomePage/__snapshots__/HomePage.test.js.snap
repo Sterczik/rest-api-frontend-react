@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render HomePage correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HomePage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defaultTitle="REST Starter"
+          defer={true}
+          encodeSpecialCharacters={true}
+          titleTemplate="REST Starter"
+        >
+          <meta
+            content="REST Starter"
+            name="description"
+          />
+        </HelmetWrapper>,
+        <div
+          className="hero"
+        >
+          <div
+            className="hero__container"
+          >
+            <div
+              className="hero__text"
+            >
+              <PageHeading
+                subtitle="A boilerplate for building React apps with REST backends"
+                title="React SPA Starter"
+              />
+              <Link
+                className="hero__link"
+                replace={false}
+                to="/login"
+              >
+                Login
+              </Link>
+              <Link
+                className="hero__link"
+                replace={false}
+                to="/register"
+              >
+                Register
+              </Link>
+              <a
+                className="hero__link"
+                href="https://github.com/Sterczik/pern-rest-starter-client"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <meta
+            content="REST Starter"
+            name="description"
+          />,
+          "defaultTitle": "REST Starter",
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "titleTemplate": "REST Starter",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "REST Starter",
+            "name": "description",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="hero__container"
+          >
+            <div
+              className="hero__text"
+            >
+              <PageHeading
+                subtitle="A boilerplate for building React apps with REST backends"
+                title="React SPA Starter"
+              />
+              <Link
+                className="hero__link"
+                replace={false}
+                to="/login"
+              >
+                Login
+              </Link>
+              <Link
+                className="hero__link"
+                replace={false}
+                to="/register"
+              >
+                Register
+              </Link>
+              <a
+                className="hero__link"
+                href="https://github.com/Sterczik/pern-rest-starter-client"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>,
+          "className": "hero",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="hero__text"
+            >
+              <PageHeading
+                subtitle="A boilerplate for building React apps with REST backends"
+                title="React SPA Starter"
+              />
+              <Link
+                className="hero__link"
+                replace={false}
+                to="/login"
+              >
+                Login
+              </Link>
+              <Link
+                className="hero__link"
+                replace={false}
+                to="/register"
+              >
+                Register
+              </Link>
+              <a
+                className="hero__link"
+                href="https://github.com/Sterczik/pern-rest-starter-client"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                View on GitHub
+              </a>
+            </div>,
+            "className": "hero__container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageHeading
+                  subtitle="A boilerplate for building React apps with REST backends"
+                  title="React SPA Starter"
+                />,
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/login"
+                >
+                  Login
+                </Link>,
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/register"
+                >
+                  Register
+                </Link>,
+                <a
+                  className="hero__link"
+                  href="https://github.com/Sterczik/pern-rest-starter-client"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>,
+              ],
+              "className": "hero__text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "subtitle": "A boilerplate for building React apps with REST backends",
+                  "title": "React SPA Starter",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Login",
+                  "className": "hero__link",
+                  "replace": false,
+                  "to": "/login",
+                },
+                "ref": null,
+                "rendered": "Login",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Register",
+                  "className": "hero__link",
+                  "replace": false,
+                  "to": "/register",
+                },
+                "ref": null,
+                "rendered": "Register",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View on GitHub",
+                  "className": "hero__link",
+                  "href": "https://github.com/Sterczik/pern-rest-starter-client",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "View on GitHub",
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defaultTitle="REST Starter"
+            defer={true}
+            encodeSpecialCharacters={true}
+            titleTemplate="REST Starter"
+          >
+            <meta
+              content="REST Starter"
+              name="description"
+            />
+          </HelmetWrapper>,
+          <div
+            className="hero"
+          >
+            <div
+              className="hero__container"
+            >
+              <div
+                className="hero__text"
+              >
+                <PageHeading
+                  subtitle="A boilerplate for building React apps with REST backends"
+                  title="React SPA Starter"
+                />
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/login"
+                >
+                  Login
+                </Link>
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/register"
+                >
+                  Register
+                </Link>
+                <a
+                  className="hero__link"
+                  href="https://github.com/Sterczik/pern-rest-starter-client"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <meta
+              content="REST Starter"
+              name="description"
+            />,
+            "defaultTitle": "REST Starter",
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "titleTemplate": "REST Starter",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "REST Starter",
+              "name": "description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="hero__container"
+            >
+              <div
+                className="hero__text"
+              >
+                <PageHeading
+                  subtitle="A boilerplate for building React apps with REST backends"
+                  title="React SPA Starter"
+                />
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/login"
+                >
+                  Login
+                </Link>
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/register"
+                >
+                  Register
+                </Link>
+                <a
+                  className="hero__link"
+                  href="https://github.com/Sterczik/pern-rest-starter-client"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>,
+            "className": "hero",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="hero__text"
+              >
+                <PageHeading
+                  subtitle="A boilerplate for building React apps with REST backends"
+                  title="React SPA Starter"
+                />
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/login"
+                >
+                  Login
+                </Link>
+                <Link
+                  className="hero__link"
+                  replace={false}
+                  to="/register"
+                >
+                  Register
+                </Link>
+                <a
+                  className="hero__link"
+                  href="https://github.com/Sterczik/pern-rest-starter-client"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>
+              </div>,
+              "className": "hero__container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageHeading
+                    subtitle="A boilerplate for building React apps with REST backends"
+                    title="React SPA Starter"
+                  />,
+                  <Link
+                    className="hero__link"
+                    replace={false}
+                    to="/login"
+                  >
+                    Login
+                  </Link>,
+                  <Link
+                    className="hero__link"
+                    replace={false}
+                    to="/register"
+                  >
+                    Register
+                  </Link>,
+                  <a
+                    className="hero__link"
+                    href="https://github.com/Sterczik/pern-rest-starter-client"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    View on GitHub
+                  </a>,
+                ],
+                "className": "hero__text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "subtitle": "A boilerplate for building React apps with REST backends",
+                    "title": "React SPA Starter",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Login",
+                    "className": "hero__link",
+                    "replace": false,
+                    "to": "/login",
+                  },
+                  "ref": null,
+                  "rendered": "Login",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Register",
+                    "className": "hero__link",
+                    "replace": false,
+                    "to": "/register",
+                  },
+                  "ref": null,
+                  "rendered": "Register",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "View on GitHub",
+                    "className": "hero__link",
+                    "href": "https://github.com/Sterczik/pern-rest-starter-client",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "View on GitHub",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
